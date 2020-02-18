@@ -8665,7 +8665,6 @@ COPY public.provinces (id, code, title, title_en, score, geographyid) FROM stdin
 --
 
 COPY public.questionnaire (id, loanerid, updatedby, approveby, statusid, sendat, updatedat, approverate, approvetotal, interest, verifycomment, approvecomment, creditgrade, creditrisk, risklevel, matrixindex, suggest, suggestscore, suggestgivescore, income, loan, debtpermonth, totaldebt, saving, mortgagesecurities, age, job, edu, timejob, frechangename, timeofphonenumber, timeofnameinhouseparticular, paydebthistory, statusinhouseparticular, incomeperdebt, totaldebtperyearincome, savingperloan, mortgagesecuritiesperloan, haveguarantor, iamguarantor, incometrend, loanobject, provincecode, incomew, loanw, debtpermonthw, totaldebtw, savingw, mortgagesecuritiesw, agew, jobw, eduw, timejobw, frechangenamew, timeofphonenumberw, timeofnameinhouseparticularw, paydebthistoryw, statusinhouseparticularw, incomeperdebtw, totaldebtperyearincomew, savingperloanw, mortgagesecuritiesperloanw, haveguarantorw, iamguarantorw, incometrendw, loanobjectw, provincecodew, loanerpayback, suggestw) FROM stdin;
-13	28	7	\N	3	2020-02-10 20:36:39.420476+07	2020-02-10 20:36:39.420476+07	0	0	0	good	-	C	3	Medium Risk	C3	อ.บอย	3	5	30000	200000	20000	500000	30000	10000	3	18	4	5	5	5	5	4	3	3	1	4	1	1	5	3	4	44	29000	210000	21234	553123	312653	23354	3	18	4	5	5	5	5	4	3	3	1	5	1	1	5	3	4	44	\N	AJ
 \.
 
 
@@ -8783,10 +8782,6 @@ COPY public.totaldebtperyearincomeoption (id, code, title, score, criteria_no) F
 
 COPY public.users (id, roleid, citizenid, email, password, name, surname, genderid, marriedid, religion, birthday, phone, child, facebook, ig, line, address1_home, address2_home, subdistrict_home, district_home, provincecode_home, zipcode_home, office_name, address1_office, address2_office, subdistrict_office, district_office, provincecode_office, zipcode_office) FROM stdin;
 7	1	\N	superadmin@gmail.com	$2a$11$L7llLcZ9wSOvsA96TLr7MexvR.FhRBdzW7BLw4cuH7uWxjj2zwHmm	superAdmin_name	superAdmin_surname	1	1	-	06/06/1993	0918650000	\N	facebookAdmin	IG-Admin	lineAdmin	-	-	ท่าตุ้ม	เวียงหนองล่อง	51	51120	\N	\N	\N	\N	\N	\N	\N
-28	4	1234567891235	test1@gmail.com	$2a$11$YLdvBpGjOh5Cgyfdb4AkEuH81hGXWS9eKJv1XgENYq2bvXa4tc1R.	test1N	test1L	2	1	-	03/06/1993	0925864598	\N	-	-	-	263 ม. 20	\N	ขามเรียง	กันทรวิชัย	44	44150	\N	\N	\N	\N	\N	\N	\N
-29	4	\N	test2@gmail.com	$2a$11$NDfvyjfe2MysJq9KdFHBxOP.LU4/t1boZql0dpB/mKfQxxcWrT3gW	test2	test2La	1	1	-	05/07/1990	0842021860	\N	\N	\N	\N	263	\N	กุดใส้จ่อ	กันทรวิชัย	44	44150	\N	\N	\N	\N	\N	\N	\N
-37	4	1101401702136	korn@gmail.com	$2a$11$KFH18QiXlKPvzML3/gyqDu7nVEt0ukak/HXDq1fngnEIHCSlxybzC	korn	pra	1	1	พุทธ	05/07/1990	0918650282	0				263	-	ขามเรียง	กันทรวิชัย	44	44150	-	263	-	ขามเรียง	กันทรวิชัย	44	44150
-38	4	1101401702137	som@gmail.com	$2a$11$eriV3G0zQlBW3gUDt9qSXu8fitGADOX5PkY0KMAChOP/veQCfcYjK	som	pra	2	1	ee	03/06/1993	0812345678	0				263	-	ขามเรียง	กันทรวิชัย	44	44150	\N	\N	\N	\N	\N	\N	\N
 \.
 
 
